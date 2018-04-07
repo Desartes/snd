@@ -10,7 +10,7 @@ class Navbar extends React.Component {
 				<Container style={{background: 'red', padding: '10px'}}>
 					<Row>
 						<Col sm={3}>
-							<AddButton />
+							<AddButton label="Pridať športovisko" />
 						</Col>
 						<Col sm={4}>
 							hej

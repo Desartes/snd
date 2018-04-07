@@ -1,13 +1,17 @@
 import * as React from 'react';
 import './AddButton.css';
 
-class ButtonIcon extends React.Component {
+type Props = {
+	label: string,
+};
+
+class ButtonIcon extends React.Component<Props> {
 	render() {
 		return (
 			<div className="buttonIcon">
 				<div className="icon" />
 				<div className="text">
-					pridať športovisko
+					{this.props.label}
 				</div>
 			</div>
 		);
