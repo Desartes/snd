@@ -1,15 +1,15 @@
 import * as React from 'react';
-import './AddButton.css';
+import './IconButton.css';
 
 type Props = {
 	label: string,
 	icon: string,
 };
 
-class AddButton extends React.Component<Props> {
+class IconButton extends React.Component<Props> {
 	render() {
 		return (
-			<div className="addButton">
+			<div className="buttonIcon">
 				<div className="icon" style={{ backgroundImage: `url(${this.props.icon})` }} />
 				<div className="text">
 					{this.props.label}
@@ -19,4 +19,4 @@ class AddButton extends React.Component<Props> {
 	}
 }
 
-export default AddButton;
+export default IconButton;

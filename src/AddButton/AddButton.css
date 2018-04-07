@@ -1,9 +1,9 @@
-.buttonIcon div {
+.addButton div {
 	float: left;
 	height: 30px;
 	cursor: pointer;
 }
-.buttonIcon .icon {
+.addButton .icon {
 	position: relative;
 	top: 0;
 	height: 30px;
@@ -15,7 +15,7 @@
 	border: 2px solid green;
 	z-index: 1;
 }
-.buttonIcon .text {
+.addButton .text {
 	position: relative;
 	background: green;
 	padding: 0 15px;
@@ -26,4 +26,5 @@
 	color: #cacaca;
 	font-size: 13px;
 	z-index: 0;
+	font-weight: bold;
 }
