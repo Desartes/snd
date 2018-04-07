@@ -1,0 +1,30 @@
+.buttonIcon div {
+	float: left;
+	height: 30px;
+	cursor: pointer;
+}
+.buttonIcon .icon {
+	position: relative;
+	top: 0;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: #cacaca;
+	background-image: url(https://cdn3.iconfinder.com/data/icons/glypho-generic-icons/64/plus-big-512.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 2px solid green;
+	z-index: 1;
+}
+.buttonIcon .text {
+	position: relative;
+	background: green;
+	padding: 0 15px;
+	margin-left: -5px;
+	margin-top: 7px;
+	height: 20px;
+	line-height: 20px;
+	color: #cacaca;
+	font-size: 13px;
+	z-index: 0;
+}

@@ -1,22 +1,22 @@
 import * as React from 'react';
 import { Container, Row, Col } from 'react-grid-system';
 import './Navbar.css';
-import ButtonIcon from '../ButtonIcon/ButtonIcon';
+import AddButton from '../AddButton/AddButton';
 
 class Navbar extends React.Component {
 	render() {
 		return (
 			<nav>
-				<Container style={{background: 'red'}}>
+				<Container style={{background: 'red', padding: '10px'}}>
 					<Row>
-						<Col>
-							<ButtonIcon />
+						<Col sm={3}>
+							<AddButton />
 						</Col>
-						<Col>
-							something
+						<Col sm={4}>
+							hej
 						</Col>
-						<Col>
-							something
+						<Col sm={4}>
+							hej
 						</Col>
 					</Row>
 				</Container>

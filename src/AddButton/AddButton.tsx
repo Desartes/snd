@@ -1,10 +1,10 @@
 import * as React from 'react';
-import './ButtonIcon.css';
+import './AddButton.css';
 
 class ButtonIcon extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="buttonIcon">
 				<div className="icon" />
 				<div className="text">
 					pridať športovisko
