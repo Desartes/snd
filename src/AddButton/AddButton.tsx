@@ -3,13 +3,14 @@ import './AddButton.css';
 
 type Props = {
 	label: string,
+	icon: string,
 };
 
-class ButtonIcon extends React.Component<Props> {
+class AddButton extends React.Component<Props> {
 	render() {
 		return (
 			<div className="buttonIcon">
-				<div className="icon" />
+				<div className="icon" style={{ backgroundImage: `url(${this.props.icon})` }} />
 				<div className="text">
 					{this.props.label}
 				</div>
@@ -18,4 +19,4 @@ class ButtonIcon extends React.Component<Props> {
 	}
 }
 
-export default ButtonIcon;
+export default AddButton;
