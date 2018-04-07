@@ -1,0 +1,21 @@
+.notification {
+	position: relative;
+	margin-top: -90px;
+	background-color: #b00b55;
+	padding: 15px;
+	transition: margin 450ms;
+	z-index: -1;
+}
+.notification-slide {
+	margin-top: 0;
+}
+.notification div {
+	text-align: center;
+	padding: 0px;
+}
+.info {
+	font-size: 18px;
+}
+.message {
+	font-size: 32px;
+}
