@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Navbar from './Navbar/Navbar';
-import Notification from './Notification/Notification';
+import Navbar from './Components/Navbar/Navbar';
+import Notification from './Components/Notification/Notification';
 
 class App extends React.Component {
 	render() {
