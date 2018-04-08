@@ -1,0 +1,23 @@
+.searchBar {
+	position: relative;
+	overflow: hidden;
+	padding: 15px 0;
+	width: 100%;
+	background: white;
+	border: 0px;
+	border-radius: 3px;
+	outline: none;
+}
+.searchBar .inputText {
+	text-indent: 20px;
+	text-align: left;
+	color: #3DCB94;
+	font-size: 35px;
+	font-style: italic;
+}
+.searchBar .findIcon {
+	float: right;
+	margin-right: 15px;
+	height: 40px;
+	width: 40px;
+}
