@@ -5,6 +5,7 @@
 	padding: 15px;
 	transition: margin 450ms;
 	z-index: -1;
+	box-shadow: inset 0px -5px 5px -4px rgb(14, 159, 159);
 }
 .notification-slide {
 	margin-top: 0;
