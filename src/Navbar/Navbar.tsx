@@ -12,9 +12,9 @@ class Navbar extends React.Component {
 		const infoIcon = 'https://cdn3.iconfinder.com/data/icons/glypho-generic-icons/64/info-circle-outline-512.png';
 		return (
 			<nav>
-				<Container style={{background: 'red', padding: '10px'}}>
+				<Container style={{padding: '10px'}}>
 					<Row>
-						<Col xs={12} sm={12} md={5}>
+						<Col xs={12} sm={12} md={6}>
 							<AddButton label="Pridať športovisko" icon={buttonIcon} />
 						</Col>
 						<Col xs={12} sm={4} md={2}>
@@ -23,8 +23,8 @@ class Navbar extends React.Component {
 						<Col xs={12} sm={4} md={2}>
 							<IconButton label="Kontakt" icon={contactIcon} />
 						</Col>
-						<Col xs={12} sm={4} md={3}>
-							<IconButton label="O ProgressGroup" icon={infoIcon} />
+						<Col xs={12} sm={4} md={2}>
+							<IconButton label="O nás" icon={infoIcon} />
 						</Col>
 					</Row>
 				</Container>

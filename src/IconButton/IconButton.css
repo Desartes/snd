@@ -1,5 +1,5 @@
 .buttonIcon div {
-	float: left;
+	float: right;
 	height: 30px;
 	cursor: pointer;
 }
@@ -15,7 +15,7 @@
     padding-left: 10px;
 	height: 20px;
 	line-height: 20px;
-	color: #cacaca;
+	color: rgb(34, 199, 199);
     font-size: 13px;
     font-weight: bold;
 }

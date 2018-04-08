@@ -10,10 +10,10 @@ class IconButton extends React.Component<Props> {
 	render() {
 		return (
 			<div className="buttonIcon">
-				<div className="icon" style={{ backgroundImage: `url(${this.props.icon})` }} />
 				<div className="text">
 					{this.props.label}
 				</div>
+				<div className="icon" style={{ backgroundImage: `url(${this.props.icon})` }} />
 			</div>
 		);
 	}

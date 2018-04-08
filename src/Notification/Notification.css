@@ -1,7 +1,7 @@
 .notification {
 	position: relative;
 	margin-top: -90px;
-	background-color: #b00b55;
+	background-color: rgb(34, 199, 199);
 	padding: 15px;
 	transition: margin 450ms;
 	z-index: -1;
