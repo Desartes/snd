@@ -14,8 +14,11 @@
 	padding: 0px;
 }
 .info {
+	color: #F5F5F5;
 	font-size: 18px;
 }
 .message {
+	text-shadow: 1px 1px #777777;
+	color: #F5F5F5;
 	font-size: 32px;
 }
