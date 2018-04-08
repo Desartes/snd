@@ -1,0 +1,10 @@
+.main {
+	background: #3DCB94;
+	text-align: center;
+}
+.main #logo {
+	width: auto;
+	height: 25vh;
+	min-height: 150px;
+	background-size: cover;
+}
