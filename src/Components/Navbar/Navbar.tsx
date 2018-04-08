@@ -18,13 +18,13 @@ class Navbar extends React.Component {
 							<AddButton label="Pridať športovisko" icon={buttonIcon} />
 						</Col>
 						<Col xs={12} sm={4} md={2}>
-							<IconButton label="Uživateľ" icon={userIcon} />
+							<IconButton label="Uživateľ" icon={userIcon} color="rgb(34, 199, 199)"/>
 						</Col>
 						<Col xs={12} sm={4} md={2}>
-							<IconButton label="Kontakt" icon={contactIcon} />
+							<IconButton label="Kontakt" icon={contactIcon} color="rgb(34, 199, 199)"/>
 						</Col>
 						<Col xs={12} sm={4} md={2}>
-							<IconButton label="O nás" icon={infoIcon} />
+							<IconButton label="O nás" icon={infoIcon} color="rgb(34, 199, 199)"/>
 						</Col>
 					</Row>
 				</Container>
