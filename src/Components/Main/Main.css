@@ -1,6 +1,7 @@
 .main {
 	background: #3DCB94;
 	text-align: center;
+	overflow: hidden;
 }
 .main #logo {
 	width: auto;
