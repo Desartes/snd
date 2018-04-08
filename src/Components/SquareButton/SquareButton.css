@@ -1,0 +1,10 @@
+.squareButton {
+	position: relative;
+	padding: 7px;
+	width: auto;
+	font-size: 12px;
+	color: #F8F8F8;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 2px #356351;
+	background: #559b80;
+}
