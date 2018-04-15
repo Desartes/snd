@@ -2,11 +2,22 @@
 	position: relative;
 	margin-top: -90px;
 	background-color: rgb(34, 199, 199);
-	background-image: url(../../images/pattern.png);
+	background-size: cover;
 	padding: 15px;
 	transition: margin 450ms;
 	z-index: -1;
 	box-shadow: inset 0px -5px 5px -4px rgb(14, 159, 159);
+}
+.notification:after {
+	content: "";
+	background-image: url(../../images/pattern.png);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	opacity: 0.05;
+	z-index: -1;
 }
 .notification-slide {
 	margin-top: 0;
