@@ -9,10 +9,10 @@ class Results extends React.Component {
 			<div className="results">
 				<Container>
 					<Row>
-						<InfoLabel num="1" label="výber športoviska" />
+						<InfoLabel label="výber športoviska" />
 					</Row>
 					<Row>
-						<InfoLabel num="2" label="šport na dlani" />
+						<InfoLabel label="šport na dlani" />
 					</Row>
 				</Container>
 			</div>

@@ -25,10 +25,7 @@ class Notification extends React.Component<Props, State> {
 			if (this.props.static) {
 				return ;
 			}
-			setTimeout(() => {
-				this.setState({ class: 'notification' });
-			// tslint:disable-next-line:align
-			}, 4500);
+			setTimeout(() => this.setState({ class: 'notification' }), 4500);
 		// tslint:disable-next-line:align
 		}, 300);
 	}
