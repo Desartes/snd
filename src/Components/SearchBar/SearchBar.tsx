@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Col, Row } from 'react-grid-system';
+import SearchIcon from '../../images/icons/search.png';
 import './SearchBar.css';
 
 class SearchBar extends React.Component {
@@ -11,7 +12,7 @@ class SearchBar extends React.Component {
 						<div className="inputText">some text</div>
 					</Col>
 					<Col xs={3} sm={2} style={{display: 'inline-block', height: '100%', verticalAlign: 'middle'}}>
-						<img className="findIcon" src="https://image.flaticon.com/icons/png/512/9/9714.png" />
+						<img className="findIcon" src={SearchIcon} />
 					</Col>
 				</Row>
 			</div>
