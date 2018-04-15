@@ -9,6 +9,12 @@ import InfoRectangle from '../InfoRectangle/InfoRectangle';
 import './Main.css';
 
 class Main extends React.Component {
+	// tslint:disable-next-line:no-any
+	searchBarChange(event: React.FormEvent<HTMLInputElement>) {
+		const { value } = event.currentTarget;
+		// tslint:disable-next-line:no-console
+		console.log('ez', value);
+	}
 	render() {
 		return (
 			<div className="main">
@@ -29,7 +35,7 @@ class Main extends React.Component {
 					</Row>
 					<Row>
 						<Col xs={12} style={{ padding: '5px' }}>
-							<SearchBar />
+							<SearchBar onChange={this.searchBarChange} />
 						</Col>
 					</Row>
 					<Row>
