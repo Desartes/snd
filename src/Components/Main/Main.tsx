@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Container, Row, Col } from 'react-grid-system';
-
 import Logo from '../../images/logo.png';
 import LocationIcon from '../../images/icons/navigator.png';
 import SearchBar from '../SearchBar/SearchBar';
@@ -8,13 +7,11 @@ import IconButton from '../IconButton/IconButton';
 import InfoRectangle from '../InfoRectangle/InfoRectangle';
 import './Main.css';
 
-class Main extends React.Component {
-	// tslint:disable-next-line:no-any
-	searchBarChange(event: React.FormEvent<HTMLInputElement>) {
-		const { value } = event.currentTarget;
-		// tslint:disable-next-line:no-console
-		console.log('ez', value);
-	}
+type Props = {
+	searchBarHandler: Function;
+};
+
+class Main extends React.Component<Props> {
 	render() {
 		return (
 			<div className="main">
@@ -35,7 +32,7 @@ class Main extends React.Component {
 					</Row>
 					<Row>
 						<Col xs={12} style={{ padding: '5px' }}>
-							<SearchBar onChange={this.searchBarChange} />
+							<SearchBar onChange={this.props.searchBarHandler} />
 						</Col>
 					</Row>
 					<Row>

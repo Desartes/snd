@@ -11,13 +11,13 @@ class SearchBar extends React.Component<Props> {
 	constructor(props: Props) {
 		super(props);
 	}
+
 	render() {
-		const { onChange } = this.props;
 		return (
 			<div className="searchBar">
 				<Row>
 					<Col xs={9} sm={10}>
-						<input className="inputText" onChange={event => onChange(event)} />
+						<input className="inputText" onChange={event => this.props.onChange(event)} />
 					</Col>
 					<Col xs={3} sm={2} style={{display: 'inline-block', height: '100%', verticalAlign: 'middle'}}>
 						<img className="findIcon" src={SearchIcon} />
